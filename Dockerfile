@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR /db_lab_front/
-COPY package*.json /db_lab_front/
+WORKDIR /dbms_front/
+COPY package*.json /dbms_front/
 RUN npm install
-COPY db_lab_front /db_lab_front/
+COPY . /dbms_front/
