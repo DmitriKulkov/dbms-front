@@ -1,1 +1,0 @@
-export const requestParams = ["_limit", "_page"]
